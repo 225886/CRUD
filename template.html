@@ -1,0 +1,60 @@
+<html lang="en">
+   <head>
+      <link rel='stylesheet' href='styles.css'>
+      <title>CRUD template</title>
+   </head>
+   <body style="background-color:#ffff00;">
+      <center>
+         <img src="golffinal.jpeg" border="0px" 
+               width="400px" height="100px" >
+      </center>
+      <br>
+      <br>
+      <center>
+         <form action='create.php' method = 'post'><!--needed to send info to php file !-->
+            <input type='text' placeholder='Full Name' name='lastName' class="advancedSearchTextBox">
+            <select id='select' name="favoriteclub">
+                 <option value="driver" >driver</option>
+                 <option value="3 wood" >3 wood</option>
+                 <option value="4 iron" >4 iron</option>
+                 <option value="5 iron" >5 iron</option>
+                 <option value="6 iron" >6 iron</option>
+                 <option value="7 iron" >7 iron</option>
+                 <option value="8 iron" >8 iron</option>
+                 <option value="9 iron" >9 iron</option>
+                 <option value="pitching wedge" >pitching wedge</option>
+                  <option value="putter" >putter</option></option>
+                 
+            </select>
+           <select id='select' name='age'>
+                 <option value="9" >9</option>
+                 <option value="10" >10</option>
+                 <option value="11" >11</option>
+                 <option value="12" >12</option>
+            </select>
+            
+            <input name = 'create' type = 'submit' value = 'Submit Info'>
+			 <!-- 
+           <input name = 'update' type = 'submit' value = 'Update Info'>  
+           <input name = 'del'    type = 'submit' value = 'Delete Info'>!-->
+         </form>
+         Find the roster for your favorite club
+         <form action= 'read.php' method = 'post'>
+            <select id='select' name='favoriteclub'>
+                <option value="driver" >driver</option>
+                 <option value="3 wood" >3 wood</option>
+                 <option value="4 iron" >4 iron</option>
+                 <option value="5 iron" >5 iron</option>
+                 <option value="6 iron" >6 iron</option>
+                 <option value="7 iron" >7 iron</option>
+                 <option value="8 iron" >8 iron</option>
+                 <option value="9 iron" >9 iron</option>
+                 <option value="pitching wedge" >pitching wedge</option>
+                  <option value="putter" >putter</option></option>
+            </select>
+               <p></p>
+            <input name = 'read'   type = 'submit' value = 'Find Info'>
+         </form>
+      </center>
+   </body>
+</html>

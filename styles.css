@@ -1,0 +1,22 @@
+th{
+    padding: 15px;
+    color: #FF0000;
+    
+}
+
+input[type=text] {
+    padding: 0;
+    height: 20px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 14px;
+}
+
+.advancedSearchTextbox {
+    width: 300px;
+    margin-right: -4px;
+}
